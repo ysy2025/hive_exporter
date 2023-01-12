@@ -12,8 +12,8 @@ from hiveserver2_info import HiveServer2Collector
 logger = get_module_logger(__name__)
 
 def register_prometheus(cluster, args):
-    if args.his is not None and len(args.his) > 0:
-        REGISTRY.register(HiveServer2Collector(cluster, args.his))
+    if args.hs2 is not None and len(args.hs2) > 0:
+        REGISTRY.register(HiveServer2Collector(cluster, args.hs2))
 
 def main():
     args = utils.parse_args()

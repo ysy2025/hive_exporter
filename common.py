@@ -17,6 +17,7 @@ class MetricCollector(object):
         self.prefix = 'hadoop_{0}_{1}'.format(component, service)
 
         self.file_list = utils.get_file_list(service)
+        # print(self.file_list)
         self.metrics = {}
         for i in range(len(self.file_list)):
             self.metrics.setdefault(self.file_list[i], utils.read_json_file(service, self.file_list[i]))
