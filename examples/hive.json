@@ -1,0 +1,984 @@
+{
+  "beans" : [ {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Loggers,name=",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+    "Level" : "INFO",
+    "Filter" : "null",
+    "Additive" : true,
+    "AppenderRefs" : [ "DRFA" ],
+    "IncludeLocation" : false,
+    "Name" : ""
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Appenders,name=console",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.AppenderAdmin",
+    "ErrorHandler" : "org.apache.logging.log4j.core.appender.DefaultErrorHandler@44f9bf2f",
+    "Layout" : "%d{ISO8601} %5p [%t] %c{2}: %m%n",
+    "Filter" : "null",
+    "IgnoreExceptions" : true,
+    "Name" : "console"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Loggers,name=com.amazonaws",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+    "Level" : "INFO",
+    "Filter" : "null",
+    "Additive" : true,
+    "AppenderRefs" : [ ],
+    "IncludeLocation" : false,
+    "Name" : "com.amazonaws"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Loggers,name=JPOX",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+    "Level" : "ERROR",
+    "Filter" : "null",
+    "Additive" : true,
+    "AppenderRefs" : [ ],
+    "IncludeLocation" : false,
+    "Name" : "JPOX"
+  }, {
+    "name" : "JMImplementation:type=MBeanServerDelegate",
+    "modelerType" : "javax.management.MBeanServerDelegate",
+    "MBeanServerId" : "hadoop102_1672302991201",
+    "SpecificationName" : "Java Management Extensions",
+    "SpecificationVersion" : "1.4",
+    "SpecificationVendor" : "Oracle Corporation",
+    "ImplementationName" : "JMX",
+    "ImplementationVersion" : "1.8.0_201-b09",
+    "ImplementationVendor" : "Oracle Corporation"
+  }, {
+    "name" : "java.lang:type=Runtime",
+    "modelerType" : "sun.management.RuntimeImpl",
+    "BootClassPathSupported" : true,
+    "VmName" : "Java HotSpot(TM) 64-Bit Server VM",
+    "VmVendor" : "Oracle Corporation",
+    "VmVersion" : "25.201-b09",
+    "LibraryPath" : "/opt/module/hadoop-3.2.3/lib/native",
+    "BootClassPath" : "/opt/module/jdk1.8.0_201/jre/lib/resources.jar:/opt/module/jdk1.8.0_201/jre/lib/rt.jar:/opt/module/jdk1.8.0_201/jre/lib/sunrsasign.jar:/opt/module/jdk1.8.0_201/jre/lib/jsse.jar:/opt/module/jdk1.8.0_201/jre/lib/jce.jar:/opt/module/jdk1.8.0_201/jre/lib/charsets.jar:/opt/module/jdk1.8.0_201/jre/lib/jfr.jar:/opt/module/jdk1.8.0_201/jre/classes",
+    "Uptime" : 1127297528,
+    "ManagementSpecVersion" : "1.2",
+    "SpecName" : "Java Virtual Machine Specification",
+    "SpecVendor" : "Oracle Corporation",
+    "SpecVersion" : "1.8",
+    "StartTime" : 1672302987169,
+    "SystemProperties" : [ {
+      "key" : "proc_hiveserver2",
+      "value" : ""
+    }, {
+      "key" : "awt.toolkit",
+      "value" : "sun.awt.X11.XToolkit"
+    }, {
+      "key" : "file.encoding.pkg",
+      "value" : "sun.io"
+    }, {
+      "key" : "java.specification.version",
+      "value" : "1.8"
+    }, {
+      "key" : "log4j.configurationFile",
+      "value" : "hive-log4j2.properties"
+    }, {
+      "key" : "Log4jContextSelector",
+      "value" : "org.apache.logging.log4j.core.async.AsyncLoggerContextSelector"
+    }, {
+      "key" : "sun.cpu.isalist",
+      "value" : ""
+    }, {
+      "key" : "sun.jnu.encoding",
+      "value" : "UTF-8"
+    }, {
+      "key" : "hive.aux.jars.path",
+      "value" : "file:///opt/module/jindosdk-4.5.0/lib/jindo-core-4.5.0.jar,file:///opt/module/jindosdk-4.5.0/lib/jindo-sdk-4.5.0.jar"
+    }, {
+      "key" : "java.class.path",
+      "value" : "/etc/tez/conf:/opt/module/hive-3.1.3/conf:/opt/module/hive-3.1.3/lib/accumulo-core-1.7.3.jar:/opt/module/hive-3.1.3/lib/accumulo-fate-1.7.3.jar:/opt/module/hive-3.1.3/lib/accumulo-start-1.7.3.jar:/opt/module/hive-3.1.3/lib/accumulo-trace-1.7.3.jar:/opt/module/hive-3.1.3/lib/aircompressor-0.10.jar:/opt/module/hive-3.1.3/lib/ant-1.9.1.jar:/opt/module/hive-3.1.3/lib/ant-launcher-1.9.1.jar:/opt/module/hive-3.1.3/lib/antlr4-runtime-4.5.jar:/opt/module/hive-3.1.3/lib/antlr-runtime-3.5.2.jar:/opt/module/hive-3.1.3/lib/aopalliance-repackaged-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/apache-jsp-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/apache-jstl-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/arrow-format-0.8.0.jar:/opt/module/hive-3.1.3/lib/arrow-memory-0.8.0.jar:/opt/module/hive-3.1.3/lib/arrow-vector-0.8.0.jar:/opt/module/hive-3.1.3/lib/asm-5.0.1.jar:/opt/module/hive-3.1.3/lib/asm-commons-5.0.1.jar:/opt/module/hive-3.1.3/lib/asm-tree-5.0.1.jar:/opt/module/hive-3.1.3/lib/audience-annotations-0.5.0.jar:/opt/module/hive-3.1.3/lib/avatica-1.11.0.jar:/opt/module/hive-3.1.3/lib/avro-1.8.2.jar:/opt/module/hive-3.1.3/lib/avro-ipc-1.8.2.jar:/opt/module/hive-3.1.3/lib/avro-mapred-1.8.2-hadoop2.jar:/opt/module/hive-3.1.3/lib/bonecp-0.8.0.RELEASE.jar:/opt/module/hive-3.1.3/lib/calcite-core-1.16.0.jar:/opt/module/hive-3.1.3/lib/calcite-druid-1.16.0.jar:/opt/module/hive-3.1.3/lib/calcite-linq4j-1.16.0.jar:/opt/module/hive-3.1.3/lib/chill_2.11-0.8.4.jar:/opt/module/hive-3.1.3/lib/chill-java-0.8.4.jar:/opt/module/hive-3.1.3/lib/commons-cli-1.2.jar:/opt/module/hive-3.1.3/lib/commons-codec-1.15.jar:/opt/module/hive-3.1.3/lib/commons-collections4-4.1.jar:/opt/module/hive-3.1.3/lib/commons-compiler-2.7.6.jar:/opt/module/hive-3.1.3/lib/commons-compress-1.19.jar:/opt/module/hive-3.1.3/lib/commons-crypto-1.0.0.jar:/opt/module/hive-3.1.3/lib/commons-dbcp-1.4.jar:/opt/module/hive-3.1.3/lib/commons-io-2.6.jar:/opt/module/hive-3.1.3/lib/commons-lang-2.6.jar:/opt/module/hive-3.1.3/lib/commons-lang3-3.9.jar:/opt/module/hive-3.1.3/lib/commons-logging-1.0.4.jar:/opt/module/hive-3.1.3/lib/commons-math-2.1.jar:/opt/module/hive-3.1.3/lib/commons-math3-3.6.1.jar:/opt/module/hive-3.1.3/lib/commons-pool-1.5.4.jar:/opt/module/hive-3.1.3/lib/commons-vfs2-2.1.jar:/opt/module/hive-3.1.3/lib/compress-lzf-1.0.3.jar:/opt/module/hive-3.1.3/lib/curator-client-2.12.0.jar:/opt/module/hive-3.1.3/lib/curator-framework-2.12.0.jar:/opt/module/hive-3.1.3/lib/curator-recipes-2.12.0.jar:/opt/module/hive-3.1.3/lib/datanucleus-api-jdo-4.2.4.jar:/opt/module/hive-3.1.3/lib/datanucleus-core-4.1.17.jar:/opt/module/hive-3.1.3/lib/datanucleus-rdbms-4.1.19.jar:/opt/module/hive-3.1.3/lib/derby-10.14.1.0.jar:/opt/module/hive-3.1.3/lib/disruptor-3.3.6.jar:/opt/module/hive-3.1.3/lib/dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar:/opt/module/hive-3.1.3/lib/druid-hdfs-storage-0.12.0.jar:/opt/module/hive-3.1.3/lib/ecj-4.4.2.jar:/opt/module/hive-3.1.3/lib/esri-geometry-api-2.0.0.jar:/opt/module/hive-3.1.3/lib/findbugs-annotations-1.3.9-1.jar:/opt/module/hive-3.1.3/lib/flatbuffers-1.2.0-3f79e055.jar:/opt/module/hive-3.1.3/lib/groovy-all-2.4.11.jar:/opt/module/hive-3.1.3/lib/gson-2.2.4.jar:/opt/module/hive-3.1.3/lib/guava-27.0-jre.jar:/opt/module/hive-3.1.3/lib/hbase-client-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-common-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-common-2.0.0-alpha4-tests.jar:/opt/module/hive-3.1.3/lib/hbase-hadoop2-compat-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-hadoop2-compat-2.0.0-alpha4-tests.jar:/opt/module/hive-3.1.3/lib/hbase-hadoop-compat-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-http-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-mapreduce-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-metrics-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-metrics-api-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-prefix-tree-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-procedure-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-protocol-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-protocol-shaded-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-replication-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-server-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-shaded-miscellaneous-1.0.1.jar:/opt/module/hive-3.1.3/lib/hbase-shaded-netty-1.0.1.jar:/opt/module/hive-3.1.3/lib/hbase-shaded-protobuf-1.0.1.jar:/opt/module/hive-3.1.3/lib/HikariCP-2.6.1.jar:/opt/module/hive-3.1.3/lib/hive-accumulo-handler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-beeline-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-classification-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-cli-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-common-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-contrib-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-druid-handler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-exec-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-hbase-handler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-hcatalog-core-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-hcatalog-server-extensions-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-hplsql-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-jdbc-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-jdbc-handler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-kryo-registrator-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-client-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-common-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-common-3.1.3-tests.jar:/opt/module/hive-3.1.3/lib/hive-llap-ext-client-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-server-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-tez-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-metastore-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-serde-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-service-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-service-rpc-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-shims-0.23-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-shims-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-shims-common-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-shims-scheduler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-spark-client-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-standalone-metastore-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-storage-api-2.7.0.jar:/opt/module/hive-3.1.3/lib/hive-streaming-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-testutils-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-upgrade-acid-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-vector-code-gen-3.1.3.jar:/opt/module/hive-3.1.3/lib/hk2-api-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/hk2-locator-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/hk2-utils-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/hppc-0.7.2.jar:/opt/module/hive-3.1.3/lib/htrace-core-3.2.0-incubating.jar:/opt/module/hive-3.1.3/lib/httpclient-4.5.13.jar:/opt/module/hive-3.1.3/lib/httpcore-4.4.13.jar:/opt/module/hive-3.1.3/lib/ivy-2.4.0.jar:/opt/module/hive-3.1.3/lib/jackson-annotations-2.12.0.jar:/opt/module/hive-3.1.3/lib/jackson-core-2.12.0.jar:/opt/module/hive-3.1.3/lib/jackson-core-asl-1.9.13.jar:/opt/module/hive-3.1.3/lib/jackson-databind-2.12.0.jar:/opt/module/hive-3.1.3/lib/jackson-dataformat-smile-2.12.0.jar:/opt/module/hive-3.1.3/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hive-3.1.3/lib/jackson-module-scala_2.11-2.12.0.jar:/opt/module/hive-3.1.3/lib/jamon-runtime-2.3.1.jar:/opt/module/hive-3.1.3/lib/janino-2.7.6.jar:/opt/module/hive-3.1.3/lib/JavaEWAH-0.3.2.jar:/opt/module/hive-3.1.3/lib/javassist-3.20.0-GA.jar:/opt/module/hive-3.1.3/lib/javax.annotation-api-1.2.jar:/opt/module/hive-3.1.3/lib/javax.inject-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/javax.jdo-3.2.0-m3.jar:/opt/module/hive-3.1.3/lib/javax.servlet-api-3.1.0.jar:/opt/module/hive-3.1.3/lib/javax.servlet.jsp-2.3.2.jar:/opt/module/hive-3.1.3/lib/javax.servlet.jsp-api-2.3.1.jar:/opt/module/hive-3.1.3/lib/javax.ws.rs-api-2.0.1.jar:/opt/module/hive-3.1.3/lib/javolution-5.5.1.jar:/opt/module/hive-3.1.3/lib/jaxb-api-2.2.11.jar:/opt/module/hive-3.1.3/lib/jcodings-1.0.18.jar:/opt/module/hive-3.1.3/lib/jcommander-1.32.jar:/opt/module/hive-3.1.3/lib/jdo-api-3.0.1.jar:/opt/module/hive-3.1.3/lib/jersey-client-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-common-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-container-servlet-core-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-guava-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-media-jaxb-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-server-2.25.1.jar:/opt/module/hive-3.1.3/lib/jettison-1.1.jar:/opt/module/hive-3.1.3/lib/jetty-annotations-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-client-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-http-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-io-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-jaas-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-jndi-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-plus-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-rewrite-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-runner-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-schemas-3.1.jar:/opt/module/hive-3.1.3/lib/jetty-security-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-server-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-servlet-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-util-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-webapp-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-xml-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jindo-core-4.5.0.jar:/opt/module/hive-3.1.3/lib/jindo-sdk-4.5.0.jar:/opt/module/hive-3.1.3/lib/jline-2.12.jar:/opt/module/hive-3.1.3/lib/joda-time-2.9.9.jar:/opt/module/hive-3.1.3/lib/jodd-core-3.5.2.jar:/opt/module/hive-3.1.3/lib/joni-2.1.11.jar:/opt/module/hive-3.1.3/lib/jpam-1.1.jar:/opt/module/hive-3.1.3/lib/json-1.8.jar:/opt/module/hive-3.1.3/lib/json4s-ast_2.11-3.2.11.jar:/opt/module/hive-3.1.3/lib/json4s-core_2.11-3.2.11.jar:/opt/module/hive-3.1.3/lib/json4s-jackson_2.11-3.2.11.jar:/opt/module/hive-3.1.3/lib/jsr305-3.0.0.jar:/opt/module/hive-3.1.3/lib/jta-1.1.jar:/opt/module/hive-3.1.3/lib/kryo-shaded-3.0.3.jar:/opt/module/hive-3.1.3/lib/libfb303-0.9.3.jar:/opt/module/hive-3.1.3/lib/libthrift-0.9.3.jar:/opt/module/hive-3.1.3/lib/lz4-java-1.4.0.jar:/opt/module/hive-3.1.3/lib/memory-0.9.0.jar:/opt/module/hive-3.1.3/lib/metrics-core-3.1.0.jar:/opt/module/hive-3.1.3/lib/metrics-graphite-3.1.5.jar:/opt/module/hive-3.1.3/lib/metrics-json-3.1.0.jar:/opt/module/hive-3.1.3/lib/metrics-jvm-3.1.0.jar:/opt/module/hive-3.1.3/lib/minlog-1.3.0.jar:/opt/module/hive-3.1.3/lib/mysql-connector-java-5.1.40.jar:/opt/module/hive-3.1.3/lib/mysql-metadata-storage-0.12.0.jar:/opt/module/hive-3.1.3/lib/netty-3.10.5.Final.jar:/opt/module/hive-3.1.3/lib/netty-all-4.1.17.Final.jar:/opt/module/hive-3.1.3/lib/netty-buffer-4.1.17.Final.jar:/opt/module/hive-3.1.3/lib/netty-common-4.1.17.Final.jar:/opt/module/hive-3.1.3/lib/objenesis-2.1.jar:/opt/module/hive-3.1.3/lib/opencsv-2.3.jar:/opt/module/hive-3.1.3/lib/opencsv-3.9.jar:/opt/module/hive-3.1.3/lib/orc-core-1.5.8.jar:/opt/module/hive-3.1.3/lib/orc-shims-1.5.8.jar:/opt/module/hive-3.1.3/lib/orc-tools-1.5.8.jar:/opt/module/hive-3.1.3/lib/org.abego.treelayout.core-1.0.1.jar:/opt/module/hive-3.1.3/lib/osgi-resource-locator-1.0.1.jar:/opt/module/hive-3.1.3/lib/paranamer-2.7.jar:/opt/module/hive-3.1.3/lib/parquet-hadoop-bundle-1.10.0.jar:/opt/module/hive-3.1.3/lib/postgresql-9.4.1208.jre7.jar:/opt/module/hive-3.1.3/lib/postgresql-metadata-storage-0.12.0.jar:/opt/module/hive-3.1.3/lib/protobuf-java-2.5.0.jar:/opt/module/hive-3.1.3/lib/py4j-0.10.6.jar:/opt/module/hive-3.1.3/lib/pyrolite-4.13.jar:/opt/module/hive-3.1.3/lib/RoaringBitmap-0.5.11.jar:/opt/module/hive-3.1.3/lib/scala-compiler-2.11.0.jar:/opt/module/hive-3.1.3/lib/scala-library-2.11.8.jar:/opt/module/hive-3.1.3/lib/scalap-2.11.0.jar:/opt/module/hive-3.1.3/lib/scala-parser-combinators_2.11-1.0.1.jar:/opt/module/hive-3.1.3/lib/scala-reflect-2.11.0.jar:/opt/module/hive-3.1.3/lib/scala-xml_2.11-1.0.1.jar:/opt/module/hive-3.1.3/lib/sketches-core-0.9.0.jar:/opt/module/hive-3.1.3/lib/snappy-java-1.1.4.jar:/opt/module/hive-3.1.3/lib/spark-core_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-kvstore_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-launcher_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-network-common_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-network-shuffle_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-tags_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-unsafe_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/sqlline-1.3.0.jar:/opt/module/hive-3.1.3/lib/ST4-4.0.4.jar:/opt/module/hive-3.1.3/lib/stax-api-1.0.1.jar:/opt/module/hive-3.1.3/lib/stream-2.7.0.jar:/opt/module/hive-3.1.3/lib/super-csv-2.2.0.jar:/opt/module/hive-3.1.3/lib/taglibs-standard-impl-1.2.5.jar:/opt/module/hive-3.1.3/lib/taglibs-standard-spec-1.2.5.jar:/opt/module/hive-3.1.3/lib/tempus-fugit-1.1.jar:/opt/module/hive-3.1.3/lib/threetenbp-1.3.5.jar:/opt/module/hive-3.1.3/lib/transaction-api-1.1.jar:/opt/module/hive-3.1.3/lib/unused-1.0.0.jar:/opt/module/hive-3.1.3/lib/validation-api-1.1.0.Final.jar:/opt/module/hive-3.1.3/lib/velocity-1.7.jar:/opt/module/hive-3.1.3/lib/websocket-api-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/websocket-client-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/websocket-common-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/websocket-server-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/websocket-servlet-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/xbean-asm5-shaded-4.4.jar:/opt/module/hive-3.1.3/lib/xz-1.5.jar:/opt/module/hive-3.1.3/lib/zookeeper-3.4.6.jar:/opt/module/hive-3.1.3/lib/zstd-jni-1.3.2-2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/accessors-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/animal-sniffer-annotations-1.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/asm-5.0.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/audience-annotations-0.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/avro-1.7.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/checker-qual-2.5.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-beanutils-1.9.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-cli-1.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-codec-1.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-collections-3.2.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-compress-1.21.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-configuration2-2.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-io-2.8.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-lang3-3.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-logging-1.1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-math3-3.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-net-3.6.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-text-1.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-client-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-framework-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-recipes-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/dnsjava-2.1.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/error_prone_annotations-2.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/failureaccess-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/gson-2.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/guava-27.0-jre.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/hadoop-annotations-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/hadoop-auth-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/htrace-core4-4.1.0-incubating.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/httpclient-4.5.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/httpcore-4.4.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/j2objc-annotations-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-core-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-databind-2.10.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/javax.activation-api-1.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/javax.servlet-api-3.1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jaxb-api-2.2.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jcip-annotations-1.0-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-core-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-json-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-server-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-servlet-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jettison-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-http-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-io-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-security-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-server-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-servlet-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-util-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-util-ajax-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-webapp-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-xml-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsch-0.1.55.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/json-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsp-api-2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsr305-3.0.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsr311-api-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jul-to-slf4j-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-admin-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-client-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-common-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-core-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-crypto-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-identity-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-server-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-simplekdc-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-asn1-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-config-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-pkix-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-xdr-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/log4j-1.2.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/metrics-core-3.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/netty-3.10.6.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/nimbus-jose-jwt-9.8.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/paranamer-2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/re2j-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/slf4j-api-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/snappy-java-1.0.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/spotbugs-annotations-3.1.9.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/stax2-api-4.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/token-provider-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/woodstox-core-5.3.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/zookeeper-3.4.14.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-common-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-kms-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-nfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/jdiff:/opt/module/hadoop-3.2.3/share/hadoop/common/lib:/opt/module/hadoop-3.2.3/share/hadoop/common/sources:/opt/module/hadoop-3.2.3/share/hadoop/common/webapps:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/accessors-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/animal-sniffer-annotations-1.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/asm-5.0.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/audience-annotations-0.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/avro-1.7.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/checker-qual-2.5.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-beanutils-1.9.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-codec-1.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-collections-3.2.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-compress-1.21.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-configuration2-2.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-io-2.8.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-lang3-3.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-math3-3.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-net-3.6.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-text-1.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-client-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-framework-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-recipes-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/dnsjava-2.1.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/error_prone_annotations-2.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/failureaccess-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/gson-2.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/guava-27.0-jre.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/hadoop-annotations-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/hadoop-auth-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/htrace-core4-4.1.0-incubating.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/httpclient-4.5.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/httpcore-4.4.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/j2objc-annotations-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-core-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-databind-2.10.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-jaxrs-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-xc-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/javax.activation-api-1.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/javax.servlet-api-3.1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jaxb-api-2.2.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jaxb-impl-2.2.3-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jcip-annotations-1.0-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-core-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-json-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-server-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-servlet-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jettison-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-http-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-io-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-security-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-server-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-servlet-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-util-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-util-ajax-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-webapp-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-xml-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsch-0.1.55.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/json-simple-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/json-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsr305-3.0.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsr311-api-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-admin-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-client-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-common-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-core-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-crypto-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-identity-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-server-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-simplekdc-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-asn1-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-config-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-pkix-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-xdr-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/leveldbjni-all-1.8.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/netty-3.10.6.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/netty-all-4.1.68.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/nimbus-jose-jwt-9.8.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/okhttp-2.7.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/okio-1.6.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/paranamer-2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/re2j-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/snappy-java-1.0.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/spotbugs-annotations-3.1.9.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/stax2-api-4.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/token-provider-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/woodstox-core-5.3.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/zookeeper-3.4.14.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-client-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-httpfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-native-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-native-client-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-nfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-rbf-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-rbf-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/jdiff:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/sources:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/webapps:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib/junit-4.13.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-app-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-nativetask-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-uploader-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/jdiff:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib-examples:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/sources:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/aopalliance-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/bcpkix-jdk15on-1.60.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/bcprov-jdk15on-1.60.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/ehcache-3.3.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/fst-2.50.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/geronimo-jcache_1.0_spec-1.0-alpha-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/guice-4.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/guice-servlet-4.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/HikariCP-java7-2.4.12.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-jaxrs-base-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-jaxrs-json-provider-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-module-jaxb-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jakarta.activation-api-1.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jakarta.xml.bind-api-2.3.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/java-util-1.9.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/javax.inject-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jersey-client-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jersey-guice-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/json-io-2.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/metrics-core-3.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/mssql-jdbc-6.2.1.jre7.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/objenesis-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/snakeyaml-1.26.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/swagger-annotations-1.5.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-api-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-registry-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-nodemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-router-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-sharedcachemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-tests-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-timeline-pluginstorage-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-web-proxy-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-services-api-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-services-core-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-submarine-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib:/opt/module/hadoop-3.2.3/share/hadoop/yarn/sources:/opt/module/hadoop-3.2.3/share/hadoop/yarn/test:/opt/module/hadoop-3.2.3/share/hadoop/yarn/timelineservice:/opt/module/hadoop-3.2.3/share/hadoop/yarn/webapps:/opt/module/hadoop-3.2.3/share/hadoop/yarn/yarn-service-examples:/opt/module/jindosdk-4.5.0/lib/jindo-core-4.5.0.jar:/opt/module/jindosdk-4.5.0/lib/jindo-sdk-4.5.0.jar:/opt/module/jindosdk-4.5.0/lib/native:/opt/module/hadoop-3.2.3/share/hadoop/tools/lib/hadoop-distcp-3.2.3.jar:/etc/hbase/conf:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-shaded-netty-2.2.0.jar:/usr/hdp/3.1.4.0-315/hbase/lib/commons-lang3-3.6.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-shaded-miscellaneous-2.2.0.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-common-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-hadoop-compat-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-hadoop2-compat-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-protocol-shaded-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-shaded-protobuf-2.2.0.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-metrics-api-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-protocol-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/jackson-databind-2.9.9.1.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-client-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-mapreduce-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/metrics-core-3.2.1.jar:/usr/hdp/3.1.4.0-315/hbase/lib/jackson-annotations-2.9.9.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-metrics-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/jackson-core-2.9.9.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-server-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/htrace-core4-4.2.0-incubating.jar:/opt/module/hive-3.1.3/lib/log4j-1.2-api-2.17.1.jar:/opt/module/hive-3.1.3/lib/log4j-api-2.17.1.jar:/opt/module/hive-3.1.3/lib/log4j-core-2.17.1.jar:/opt/module/hive-3.1.3/lib/log4j-web-2.17.1.jar:/opt/module/hadoop-3.2.3/etc/hadoop:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-client-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-configuration2-2.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-common-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-crypto-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-http-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-core-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/hadoop-annotations-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jcip-annotations-1.0-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/woodstox-core-5.3.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/htrace-core4-4.1.0-incubating.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-collections-3.2.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/netty-3.10.6.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/zookeeper-3.4.14.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-server-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/paranamer-2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/javax.servlet-api-3.1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/javax.activation-api-1.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/guava-27.0-jre.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/asm-5.0.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/j2objc-annotations-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-framework-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/accessors-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/re2j-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-config-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-databind-2.10.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-beanutils-1.9.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/failureaccess-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jul-to-slf4j-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-cli-1.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-json-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/hadoop-auth-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/dnsjava-2.1.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsp-api-2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jaxb-api-2.2.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-core-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/httpclient-4.5.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/nimbus-jose-jwt-9.8.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-client-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-text-1.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/slf4j-api-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-servlet-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-xml-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-server-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/gson-2.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-identity-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/spotbugs-annotations-3.1.9.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/checker-qual-2.5.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-webapp-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/metrics-core-3.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/token-provider-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-security-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/snappy-java-1.0.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-net-3.6.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-server-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-pkix-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-compress-1.21.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/httpcore-4.4.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsr305-3.0.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/log4j-1.2.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-math3-3.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-util-ajax-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-admin-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-recipes-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-codec-1.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-io-2.8.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-servlet-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/avro-1.7.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-asn1-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-lang3-3.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/json-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsr311-api-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-simplekdc-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-core-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-xdr-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsch-0.1.55.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jettison-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-logging-1.1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/animal-sniffer-annotations-1.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/error_prone_annotations-2.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-io-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/audience-annotations-0.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-util-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/stax2-api-4.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-kms-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-nfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-common-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-client-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-configuration2-2.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-common-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-crypto-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-http-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-core-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/hadoop-annotations-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jcip-annotations-1.0-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/woodstox-core-5.3.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/htrace-core4-4.1.0-incubating.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-collections-3.2.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/netty-3.10.6.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/zookeeper-3.4.14.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-server-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/paranamer-2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/leveldbjni-all-1.8.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/javax.servlet-api-3.1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/json-simple-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/javax.activation-api-1.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/guava-27.0-jre.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/asm-5.0.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/j2objc-annotations-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-framework-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/accessors-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/re2j-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-config-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-databind-2.10.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-beanutils-1.9.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/failureaccess-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-json-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/hadoop-auth-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/dnsjava-2.1.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-xc-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jaxb-api-2.2.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-core-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/httpclient-4.5.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/nimbus-jose-jwt-9.8.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-client-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-text-1.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/netty-all-4.1.68.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jaxb-impl-2.2.3-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-servlet-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-xml-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-server-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/gson-2.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-identity-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/spotbugs-annotations-3.1.9.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/checker-qual-2.5.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-webapp-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/token-provider-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-security-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/snappy-java-1.0.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-net-3.6.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-server-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-pkix-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-compress-1.21.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/httpcore-4.4.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsr305-3.0.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-math3-3.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-util-ajax-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-admin-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-recipes-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-codec-1.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-io-2.8.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-servlet-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/avro-1.7.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-asn1-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-lang3-3.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/json-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsr311-api-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-simplekdc-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-jaxrs-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/okio-1.6.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-core-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-xdr-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsch-0.1.55.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jettison-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/animal-sniffer-annotations-1.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/error_prone_annotations-2.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-io-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/audience-annotations-0.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/okhttp-2.7.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-util-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/stax2-api-4.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-client-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-nfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-rbf-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-native-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-httpfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-native-client-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-rbf-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib/junit-4.13.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-app-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-nativetask-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-uploader-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jersey-guice-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/swagger-annotations-1.5.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/json-io-2.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/HikariCP-java7-2.4.12.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/ehcache-3.3.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/bcpkix-jdk15on-1.60.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-jaxrs-json-provider-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/javax.inject-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/aopalliance-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jakarta.xml.bind-api-2.3.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/metrics-core-3.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/objenesis-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/snakeyaml-1.26.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/bcprov-jdk15on-1.60.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-module-jaxb-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/geronimo-jcache_1.0_spec-1.0-alpha-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-jaxrs-base-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/fst-2.50.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/mssql-jdbc-6.2.1.jre7.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/guice-4.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/java-util-1.9.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jersey-client-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/guice-servlet-4.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jakarta.activation-api-1.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-services-api-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-submarine-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-registry-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-sharedcachemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-router-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-api-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-web-proxy-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-tests-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-nodemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-services-core-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-timeline-pluginstorage-3.2.3.jar"
+    }, {
+      "key" : "yarn.home.dir",
+      "value" : "/opt/module/hadoop-3.2.3"
+    }, {
+      "key" : "java.vm.vendor",
+      "value" : "Oracle Corporation"
+    }, {
+      "key" : "sun.arch.data.model",
+      "value" : "64"
+    }, {
+      "key" : "java.vendor.url",
+      "value" : "http://java.oracle.com/"
+    }, {
+      "key" : "user.timezone",
+      "value" : "Asia/Shanghai"
+    }, {
+      "key" : "log4j2.formatMsgNoLookups",
+      "value" : "true"
+    }, {
+      "key" : "jline.terminal",
+      "value" : "jline.UnsupportedTerminal"
+    }, {
+      "key" : "os.name",
+      "value" : "Linux"
+    }, {
+      "key" : "java.vm.specification.version",
+      "value" : "1.8"
+    }, {
+      "key" : "user.country",
+      "value" : "CN"
+    }, {
+      "key" : "sun.java.launcher",
+      "value" : "SUN_STANDARD"
+    }, {
+      "key" : "yarn.root.logger",
+      "value" : "INFO,console"
+    }, {
+      "key" : "sun.boot.library.path",
+      "value" : "/opt/module/jdk1.8.0_201/jre/lib/amd64"
+    }, {
+      "key" : "proc_jar",
+      "value" : ""
+    }, {
+      "key" : "sun.java.command",
+      "value" : "org.apache.hadoop.util.RunJar /opt/module/hive-3.1.3/lib/hive-service-3.1.3.jar org.apache.hive.service.server.HiveServer2 --hiveconf hive.aux.jars.path=file:///opt/module/jindosdk-4.5.0/lib/jindo-core-4.5.0.jar,file:///opt/module/jindosdk-4.5.0/lib/jindo-sdk-4.5.0.jar"
+    }, {
+      "key" : "sun.cpu.endian",
+      "value" : "little"
+    }, {
+      "key" : "user.home",
+      "value" : "/root"
+    }, {
+      "key" : "user.language",
+      "value" : "zh"
+    }, {
+      "key" : "java.specification.vendor",
+      "value" : "Oracle Corporation"
+    }, {
+      "key" : "java.home",
+      "value" : "/opt/module/jdk1.8.0_201/jre"
+    }, {
+      "key" : "file.separator",
+      "value" : "/"
+    }, {
+      "key" : "line.separator",
+      "value" : "\n"
+    }, {
+      "key" : "java.vm.specification.vendor",
+      "value" : "Oracle Corporation"
+    }, {
+      "key" : "java.specification.name",
+      "value" : "Java Platform API Specification"
+    }, {
+      "key" : "java.awt.graphicsenv",
+      "value" : "sun.awt.X11GraphicsEnvironment"
+    }, {
+      "key" : "isThreadContextMapInheritable",
+      "value" : "true"
+    }, {
+      "key" : "hadoop.security.logger",
+      "value" : "INFO,NullAppender"
+    }, {
+      "key" : "hadoop.log.dir",
+      "value" : "/opt/module/hadoop-3.2.3/logs"
+    }, {
+      "key" : "sun.boot.class.path",
+      "value" : "/opt/module/jdk1.8.0_201/jre/lib/resources.jar:/opt/module/jdk1.8.0_201/jre/lib/rt.jar:/opt/module/jdk1.8.0_201/jre/lib/sunrsasign.jar:/opt/module/jdk1.8.0_201/jre/lib/jsse.jar:/opt/module/jdk1.8.0_201/jre/lib/jce.jar:/opt/module/jdk1.8.0_201/jre/lib/charsets.jar:/opt/module/jdk1.8.0_201/jre/lib/jfr.jar:/opt/module/jdk1.8.0_201/jre/classes"
+    }, {
+      "key" : "java.util.logging.config.file",
+      "value" : "/opt/module/hive-3.1.3/conf/parquet-logging.properties"
+    }, {
+      "key" : "yarn.log.dir",
+      "value" : "/opt/module/hadoop-3.2.3/logs"
+    }, {
+      "key" : "sun.management.compiler",
+      "value" : "HotSpot 64-Bit Tiered Compilers"
+    }, {
+      "key" : "java.runtime.version",
+      "value" : "1.8.0_201-b09"
+    }, {
+      "key" : "hadoop.log.file",
+      "value" : "hadoop.log"
+    }, {
+      "key" : "user.name",
+      "value" : "root"
+    }, {
+      "key" : "hadoop.home.dir",
+      "value" : "/opt/module/hadoop-3.2.3"
+    }, {
+      "key" : "path.separator",
+      "value" : ":"
+    }, {
+      "key" : "hadoop.id.str",
+      "value" : "root"
+    }, {
+      "key" : "os.version",
+      "value" : "3.10.0-1160.49.1.el7.x86_64"
+    }, {
+      "key" : "java.endorsed.dirs",
+      "value" : "/opt/module/jdk1.8.0_201/jre/lib/endorsed"
+    }, {
+      "key" : "java.runtime.name",
+      "value" : "Java(TM) SE Runtime Environment"
+    }, {
+      "key" : "hadoop.root.logger",
+      "value" : "INFO,console"
+    }, {
+      "key" : "file.encoding",
+      "value" : "UTF-8"
+    }, {
+      "key" : "java.vm.name",
+      "value" : "Java HotSpot(TM) 64-Bit Server VM"
+    }, {
+      "key" : "java.vendor.url.bug",
+      "value" : "http://bugreport.sun.com/bugreport/"
+    }, {
+      "key" : "java.io.tmpdir",
+      "value" : "/tmp"
+    }, {
+      "key" : "java.version",
+      "value" : "1.8.0_201"
+    }, {
+      "key" : "user.dir",
+      "value" : "/opt/module/spark-3.2.3"
+    }, {
+      "key" : "os.arch",
+      "value" : "amd64"
+    }, {
+      "key" : "java.vm.specification.name",
+      "value" : "Java Virtual Machine Specification"
+    }, {
+      "key" : "java.awt.printerjob",
+      "value" : "sun.print.PSPrinterJob"
+    }, {
+      "key" : "hadoop.policy.file",
+      "value" : "hadoop-policy.xml"
+    }, {
+      "key" : "yarn.log.file",
+      "value" : "hadoop.log"
+    }, {
+      "key" : "sun.os.patch.level",
+      "value" : "unknown"
+    }, {
+      "key" : "java.library.path",
+      "value" : "/opt/module/hadoop-3.2.3/lib/native"
+    }, {
+      "key" : "java.vm.info",
+      "value" : "mixed mode"
+    }, {
+      "key" : "java.vendor",
+      "value" : "Oracle Corporation"
+    }, {
+      "key" : "java.vm.version",
+      "value" : "25.201-b09"
+    }, {
+      "key" : "java.ext.dirs",
+      "value" : "/opt/module/jdk1.8.0_201/jre/lib/ext:/usr/java/packages/lib/ext"
+    }, {
+      "key" : "sun.io.unicode.encoding",
+      "value" : "UnicodeLittle"
+    }, {
+      "key" : "java.class.version",
+      "value" : "52.0"
+    } ],
+    "InputArguments" : [ "-Dproc_jar", "-Dproc_hiveserver2", "-Dlog4j2.formatMsgNoLookups=true", "-Dlog4j.configurationFile=hive-log4j2.properties", "-Djava.util.logging.config.file=/opt/module/hive-3.1.3/conf/parquet-logging.properties", "-Djline.terminal=jline.UnsupportedTerminal", "-Dyarn.log.dir=/opt/module/hadoop-3.2.3/logs", "-Dyarn.log.file=hadoop.log", "-Dyarn.home.dir=/opt/module/hadoop-3.2.3", "-Dyarn.root.logger=INFO,console", "-Djava.library.path=/opt/module/hadoop-3.2.3/lib/native", "-Xmx256m", "-Dhadoop.log.dir=/opt/module/hadoop-3.2.3/logs", "-Dhadoop.log.file=hadoop.log", "-Dhadoop.home.dir=/opt/module/hadoop-3.2.3", "-Dhadoop.id.str=root", "-Dhadoop.root.logger=INFO,console", "-Dhadoop.policy.file=hadoop-policy.xml", "-Dhadoop.security.logger=INFO,NullAppender" ],
+    "Name" : "45706@hadoop102",
+    "ClassPath" : "/etc/tez/conf:/opt/module/hive-3.1.3/conf:/opt/module/hive-3.1.3/lib/accumulo-core-1.7.3.jar:/opt/module/hive-3.1.3/lib/accumulo-fate-1.7.3.jar:/opt/module/hive-3.1.3/lib/accumulo-start-1.7.3.jar:/opt/module/hive-3.1.3/lib/accumulo-trace-1.7.3.jar:/opt/module/hive-3.1.3/lib/aircompressor-0.10.jar:/opt/module/hive-3.1.3/lib/ant-1.9.1.jar:/opt/module/hive-3.1.3/lib/ant-launcher-1.9.1.jar:/opt/module/hive-3.1.3/lib/antlr4-runtime-4.5.jar:/opt/module/hive-3.1.3/lib/antlr-runtime-3.5.2.jar:/opt/module/hive-3.1.3/lib/aopalliance-repackaged-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/apache-jsp-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/apache-jstl-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/arrow-format-0.8.0.jar:/opt/module/hive-3.1.3/lib/arrow-memory-0.8.0.jar:/opt/module/hive-3.1.3/lib/arrow-vector-0.8.0.jar:/opt/module/hive-3.1.3/lib/asm-5.0.1.jar:/opt/module/hive-3.1.3/lib/asm-commons-5.0.1.jar:/opt/module/hive-3.1.3/lib/asm-tree-5.0.1.jar:/opt/module/hive-3.1.3/lib/audience-annotations-0.5.0.jar:/opt/module/hive-3.1.3/lib/avatica-1.11.0.jar:/opt/module/hive-3.1.3/lib/avro-1.8.2.jar:/opt/module/hive-3.1.3/lib/avro-ipc-1.8.2.jar:/opt/module/hive-3.1.3/lib/avro-mapred-1.8.2-hadoop2.jar:/opt/module/hive-3.1.3/lib/bonecp-0.8.0.RELEASE.jar:/opt/module/hive-3.1.3/lib/calcite-core-1.16.0.jar:/opt/module/hive-3.1.3/lib/calcite-druid-1.16.0.jar:/opt/module/hive-3.1.3/lib/calcite-linq4j-1.16.0.jar:/opt/module/hive-3.1.3/lib/chill_2.11-0.8.4.jar:/opt/module/hive-3.1.3/lib/chill-java-0.8.4.jar:/opt/module/hive-3.1.3/lib/commons-cli-1.2.jar:/opt/module/hive-3.1.3/lib/commons-codec-1.15.jar:/opt/module/hive-3.1.3/lib/commons-collections4-4.1.jar:/opt/module/hive-3.1.3/lib/commons-compiler-2.7.6.jar:/opt/module/hive-3.1.3/lib/commons-compress-1.19.jar:/opt/module/hive-3.1.3/lib/commons-crypto-1.0.0.jar:/opt/module/hive-3.1.3/lib/commons-dbcp-1.4.jar:/opt/module/hive-3.1.3/lib/commons-io-2.6.jar:/opt/module/hive-3.1.3/lib/commons-lang-2.6.jar:/opt/module/hive-3.1.3/lib/commons-lang3-3.9.jar:/opt/module/hive-3.1.3/lib/commons-logging-1.0.4.jar:/opt/module/hive-3.1.3/lib/commons-math-2.1.jar:/opt/module/hive-3.1.3/lib/commons-math3-3.6.1.jar:/opt/module/hive-3.1.3/lib/commons-pool-1.5.4.jar:/opt/module/hive-3.1.3/lib/commons-vfs2-2.1.jar:/opt/module/hive-3.1.3/lib/compress-lzf-1.0.3.jar:/opt/module/hive-3.1.3/lib/curator-client-2.12.0.jar:/opt/module/hive-3.1.3/lib/curator-framework-2.12.0.jar:/opt/module/hive-3.1.3/lib/curator-recipes-2.12.0.jar:/opt/module/hive-3.1.3/lib/datanucleus-api-jdo-4.2.4.jar:/opt/module/hive-3.1.3/lib/datanucleus-core-4.1.17.jar:/opt/module/hive-3.1.3/lib/datanucleus-rdbms-4.1.19.jar:/opt/module/hive-3.1.3/lib/derby-10.14.1.0.jar:/opt/module/hive-3.1.3/lib/disruptor-3.3.6.jar:/opt/module/hive-3.1.3/lib/dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar:/opt/module/hive-3.1.3/lib/druid-hdfs-storage-0.12.0.jar:/opt/module/hive-3.1.3/lib/ecj-4.4.2.jar:/opt/module/hive-3.1.3/lib/esri-geometry-api-2.0.0.jar:/opt/module/hive-3.1.3/lib/findbugs-annotations-1.3.9-1.jar:/opt/module/hive-3.1.3/lib/flatbuffers-1.2.0-3f79e055.jar:/opt/module/hive-3.1.3/lib/groovy-all-2.4.11.jar:/opt/module/hive-3.1.3/lib/gson-2.2.4.jar:/opt/module/hive-3.1.3/lib/guava-27.0-jre.jar:/opt/module/hive-3.1.3/lib/hbase-client-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-common-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-common-2.0.0-alpha4-tests.jar:/opt/module/hive-3.1.3/lib/hbase-hadoop2-compat-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-hadoop2-compat-2.0.0-alpha4-tests.jar:/opt/module/hive-3.1.3/lib/hbase-hadoop-compat-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-http-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-mapreduce-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-metrics-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-metrics-api-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-prefix-tree-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-procedure-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-protocol-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-protocol-shaded-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-replication-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-server-2.0.0-alpha4.jar:/opt/module/hive-3.1.3/lib/hbase-shaded-miscellaneous-1.0.1.jar:/opt/module/hive-3.1.3/lib/hbase-shaded-netty-1.0.1.jar:/opt/module/hive-3.1.3/lib/hbase-shaded-protobuf-1.0.1.jar:/opt/module/hive-3.1.3/lib/HikariCP-2.6.1.jar:/opt/module/hive-3.1.3/lib/hive-accumulo-handler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-beeline-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-classification-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-cli-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-common-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-contrib-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-druid-handler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-exec-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-hbase-handler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-hcatalog-core-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-hcatalog-server-extensions-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-hplsql-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-jdbc-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-jdbc-handler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-kryo-registrator-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-client-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-common-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-common-3.1.3-tests.jar:/opt/module/hive-3.1.3/lib/hive-llap-ext-client-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-server-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-llap-tez-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-metastore-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-serde-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-service-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-service-rpc-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-shims-0.23-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-shims-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-shims-common-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-shims-scheduler-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-spark-client-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-standalone-metastore-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-storage-api-2.7.0.jar:/opt/module/hive-3.1.3/lib/hive-streaming-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-testutils-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-upgrade-acid-3.1.3.jar:/opt/module/hive-3.1.3/lib/hive-vector-code-gen-3.1.3.jar:/opt/module/hive-3.1.3/lib/hk2-api-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/hk2-locator-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/hk2-utils-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/hppc-0.7.2.jar:/opt/module/hive-3.1.3/lib/htrace-core-3.2.0-incubating.jar:/opt/module/hive-3.1.3/lib/httpclient-4.5.13.jar:/opt/module/hive-3.1.3/lib/httpcore-4.4.13.jar:/opt/module/hive-3.1.3/lib/ivy-2.4.0.jar:/opt/module/hive-3.1.3/lib/jackson-annotations-2.12.0.jar:/opt/module/hive-3.1.3/lib/jackson-core-2.12.0.jar:/opt/module/hive-3.1.3/lib/jackson-core-asl-1.9.13.jar:/opt/module/hive-3.1.3/lib/jackson-databind-2.12.0.jar:/opt/module/hive-3.1.3/lib/jackson-dataformat-smile-2.12.0.jar:/opt/module/hive-3.1.3/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hive-3.1.3/lib/jackson-module-scala_2.11-2.12.0.jar:/opt/module/hive-3.1.3/lib/jamon-runtime-2.3.1.jar:/opt/module/hive-3.1.3/lib/janino-2.7.6.jar:/opt/module/hive-3.1.3/lib/JavaEWAH-0.3.2.jar:/opt/module/hive-3.1.3/lib/javassist-3.20.0-GA.jar:/opt/module/hive-3.1.3/lib/javax.annotation-api-1.2.jar:/opt/module/hive-3.1.3/lib/javax.inject-2.5.0-b32.jar:/opt/module/hive-3.1.3/lib/javax.jdo-3.2.0-m3.jar:/opt/module/hive-3.1.3/lib/javax.servlet-api-3.1.0.jar:/opt/module/hive-3.1.3/lib/javax.servlet.jsp-2.3.2.jar:/opt/module/hive-3.1.3/lib/javax.servlet.jsp-api-2.3.1.jar:/opt/module/hive-3.1.3/lib/javax.ws.rs-api-2.0.1.jar:/opt/module/hive-3.1.3/lib/javolution-5.5.1.jar:/opt/module/hive-3.1.3/lib/jaxb-api-2.2.11.jar:/opt/module/hive-3.1.3/lib/jcodings-1.0.18.jar:/opt/module/hive-3.1.3/lib/jcommander-1.32.jar:/opt/module/hive-3.1.3/lib/jdo-api-3.0.1.jar:/opt/module/hive-3.1.3/lib/jersey-client-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-common-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-container-servlet-core-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-guava-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-media-jaxb-2.25.1.jar:/opt/module/hive-3.1.3/lib/jersey-server-2.25.1.jar:/opt/module/hive-3.1.3/lib/jettison-1.1.jar:/opt/module/hive-3.1.3/lib/jetty-annotations-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-client-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-http-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-io-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-jaas-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-jndi-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-plus-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-rewrite-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-runner-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-schemas-3.1.jar:/opt/module/hive-3.1.3/lib/jetty-security-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-server-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-servlet-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-util-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-webapp-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jetty-xml-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/jindo-core-4.5.0.jar:/opt/module/hive-3.1.3/lib/jindo-sdk-4.5.0.jar:/opt/module/hive-3.1.3/lib/jline-2.12.jar:/opt/module/hive-3.1.3/lib/joda-time-2.9.9.jar:/opt/module/hive-3.1.3/lib/jodd-core-3.5.2.jar:/opt/module/hive-3.1.3/lib/joni-2.1.11.jar:/opt/module/hive-3.1.3/lib/jpam-1.1.jar:/opt/module/hive-3.1.3/lib/json-1.8.jar:/opt/module/hive-3.1.3/lib/json4s-ast_2.11-3.2.11.jar:/opt/module/hive-3.1.3/lib/json4s-core_2.11-3.2.11.jar:/opt/module/hive-3.1.3/lib/json4s-jackson_2.11-3.2.11.jar:/opt/module/hive-3.1.3/lib/jsr305-3.0.0.jar:/opt/module/hive-3.1.3/lib/jta-1.1.jar:/opt/module/hive-3.1.3/lib/kryo-shaded-3.0.3.jar:/opt/module/hive-3.1.3/lib/libfb303-0.9.3.jar:/opt/module/hive-3.1.3/lib/libthrift-0.9.3.jar:/opt/module/hive-3.1.3/lib/lz4-java-1.4.0.jar:/opt/module/hive-3.1.3/lib/memory-0.9.0.jar:/opt/module/hive-3.1.3/lib/metrics-core-3.1.0.jar:/opt/module/hive-3.1.3/lib/metrics-graphite-3.1.5.jar:/opt/module/hive-3.1.3/lib/metrics-json-3.1.0.jar:/opt/module/hive-3.1.3/lib/metrics-jvm-3.1.0.jar:/opt/module/hive-3.1.3/lib/minlog-1.3.0.jar:/opt/module/hive-3.1.3/lib/mysql-connector-java-5.1.40.jar:/opt/module/hive-3.1.3/lib/mysql-metadata-storage-0.12.0.jar:/opt/module/hive-3.1.3/lib/netty-3.10.5.Final.jar:/opt/module/hive-3.1.3/lib/netty-all-4.1.17.Final.jar:/opt/module/hive-3.1.3/lib/netty-buffer-4.1.17.Final.jar:/opt/module/hive-3.1.3/lib/netty-common-4.1.17.Final.jar:/opt/module/hive-3.1.3/lib/objenesis-2.1.jar:/opt/module/hive-3.1.3/lib/opencsv-2.3.jar:/opt/module/hive-3.1.3/lib/opencsv-3.9.jar:/opt/module/hive-3.1.3/lib/orc-core-1.5.8.jar:/opt/module/hive-3.1.3/lib/orc-shims-1.5.8.jar:/opt/module/hive-3.1.3/lib/orc-tools-1.5.8.jar:/opt/module/hive-3.1.3/lib/org.abego.treelayout.core-1.0.1.jar:/opt/module/hive-3.1.3/lib/osgi-resource-locator-1.0.1.jar:/opt/module/hive-3.1.3/lib/paranamer-2.7.jar:/opt/module/hive-3.1.3/lib/parquet-hadoop-bundle-1.10.0.jar:/opt/module/hive-3.1.3/lib/postgresql-9.4.1208.jre7.jar:/opt/module/hive-3.1.3/lib/postgresql-metadata-storage-0.12.0.jar:/opt/module/hive-3.1.3/lib/protobuf-java-2.5.0.jar:/opt/module/hive-3.1.3/lib/py4j-0.10.6.jar:/opt/module/hive-3.1.3/lib/pyrolite-4.13.jar:/opt/module/hive-3.1.3/lib/RoaringBitmap-0.5.11.jar:/opt/module/hive-3.1.3/lib/scala-compiler-2.11.0.jar:/opt/module/hive-3.1.3/lib/scala-library-2.11.8.jar:/opt/module/hive-3.1.3/lib/scalap-2.11.0.jar:/opt/module/hive-3.1.3/lib/scala-parser-combinators_2.11-1.0.1.jar:/opt/module/hive-3.1.3/lib/scala-reflect-2.11.0.jar:/opt/module/hive-3.1.3/lib/scala-xml_2.11-1.0.1.jar:/opt/module/hive-3.1.3/lib/sketches-core-0.9.0.jar:/opt/module/hive-3.1.3/lib/snappy-java-1.1.4.jar:/opt/module/hive-3.1.3/lib/spark-core_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-kvstore_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-launcher_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-network-common_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-network-shuffle_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-tags_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/spark-unsafe_2.11-2.3.0.jar:/opt/module/hive-3.1.3/lib/sqlline-1.3.0.jar:/opt/module/hive-3.1.3/lib/ST4-4.0.4.jar:/opt/module/hive-3.1.3/lib/stax-api-1.0.1.jar:/opt/module/hive-3.1.3/lib/stream-2.7.0.jar:/opt/module/hive-3.1.3/lib/super-csv-2.2.0.jar:/opt/module/hive-3.1.3/lib/taglibs-standard-impl-1.2.5.jar:/opt/module/hive-3.1.3/lib/taglibs-standard-spec-1.2.5.jar:/opt/module/hive-3.1.3/lib/tempus-fugit-1.1.jar:/opt/module/hive-3.1.3/lib/threetenbp-1.3.5.jar:/opt/module/hive-3.1.3/lib/transaction-api-1.1.jar:/opt/module/hive-3.1.3/lib/unused-1.0.0.jar:/opt/module/hive-3.1.3/lib/validation-api-1.1.0.Final.jar:/opt/module/hive-3.1.3/lib/velocity-1.7.jar:/opt/module/hive-3.1.3/lib/websocket-api-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/websocket-client-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/websocket-common-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/websocket-server-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/websocket-servlet-9.3.20.v20170531.jar:/opt/module/hive-3.1.3/lib/xbean-asm5-shaded-4.4.jar:/opt/module/hive-3.1.3/lib/xz-1.5.jar:/opt/module/hive-3.1.3/lib/zookeeper-3.4.6.jar:/opt/module/hive-3.1.3/lib/zstd-jni-1.3.2-2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/accessors-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/animal-sniffer-annotations-1.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/asm-5.0.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/audience-annotations-0.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/avro-1.7.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/checker-qual-2.5.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-beanutils-1.9.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-cli-1.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-codec-1.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-collections-3.2.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-compress-1.21.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-configuration2-2.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-io-2.8.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-lang3-3.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-logging-1.1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-math3-3.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-net-3.6.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-text-1.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-client-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-framework-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-recipes-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/dnsjava-2.1.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/error_prone_annotations-2.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/failureaccess-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/gson-2.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/guava-27.0-jre.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/hadoop-annotations-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/hadoop-auth-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/htrace-core4-4.1.0-incubating.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/httpclient-4.5.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/httpcore-4.4.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/j2objc-annotations-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-core-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-databind-2.10.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/javax.activation-api-1.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/javax.servlet-api-3.1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jaxb-api-2.2.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jcip-annotations-1.0-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-core-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-json-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-server-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-servlet-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jettison-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-http-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-io-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-security-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-server-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-servlet-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-util-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-util-ajax-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-webapp-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-xml-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsch-0.1.55.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/json-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsp-api-2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsr305-3.0.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsr311-api-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jul-to-slf4j-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-admin-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-client-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-common-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-core-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-crypto-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-identity-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-server-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-simplekdc-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-asn1-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-config-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-pkix-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-xdr-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/log4j-1.2.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/metrics-core-3.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/netty-3.10.6.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/nimbus-jose-jwt-9.8.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/paranamer-2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/re2j-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/slf4j-api-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/snappy-java-1.0.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/spotbugs-annotations-3.1.9.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/stax2-api-4.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/token-provider-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/woodstox-core-5.3.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/zookeeper-3.4.14.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-common-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-kms-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-nfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/jdiff:/opt/module/hadoop-3.2.3/share/hadoop/common/lib:/opt/module/hadoop-3.2.3/share/hadoop/common/sources:/opt/module/hadoop-3.2.3/share/hadoop/common/webapps:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/accessors-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/animal-sniffer-annotations-1.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/asm-5.0.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/audience-annotations-0.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/avro-1.7.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/checker-qual-2.5.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-beanutils-1.9.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-codec-1.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-collections-3.2.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-compress-1.21.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-configuration2-2.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-io-2.8.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-lang3-3.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-math3-3.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-net-3.6.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-text-1.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-client-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-framework-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-recipes-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/dnsjava-2.1.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/error_prone_annotations-2.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/failureaccess-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/gson-2.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/guava-27.0-jre.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/hadoop-annotations-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/hadoop-auth-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/htrace-core4-4.1.0-incubating.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/httpclient-4.5.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/httpcore-4.4.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/j2objc-annotations-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-core-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-databind-2.10.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-jaxrs-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-xc-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/javax.activation-api-1.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/javax.servlet-api-3.1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jaxb-api-2.2.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jaxb-impl-2.2.3-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jcip-annotations-1.0-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-core-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-json-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-server-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-servlet-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jettison-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-http-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-io-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-security-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-server-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-servlet-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-util-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-util-ajax-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-webapp-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-xml-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsch-0.1.55.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/json-simple-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/json-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsr305-3.0.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsr311-api-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-admin-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-client-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-common-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-core-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-crypto-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-identity-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-server-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-simplekdc-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-asn1-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-config-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-pkix-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-xdr-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/leveldbjni-all-1.8.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/netty-3.10.6.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/netty-all-4.1.68.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/nimbus-jose-jwt-9.8.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/okhttp-2.7.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/okio-1.6.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/paranamer-2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/re2j-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/snappy-java-1.0.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/spotbugs-annotations-3.1.9.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/stax2-api-4.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/token-provider-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/woodstox-core-5.3.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/zookeeper-3.4.14.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-client-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-httpfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-native-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-native-client-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-nfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-rbf-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-rbf-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/jdiff:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/sources:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/webapps:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib/junit-4.13.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-app-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-nativetask-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-uploader-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/jdiff:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib-examples:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/sources:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/aopalliance-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/bcpkix-jdk15on-1.60.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/bcprov-jdk15on-1.60.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/ehcache-3.3.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/fst-2.50.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/geronimo-jcache_1.0_spec-1.0-alpha-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/guice-4.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/guice-servlet-4.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/HikariCP-java7-2.4.12.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-jaxrs-base-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-jaxrs-json-provider-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-module-jaxb-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jakarta.activation-api-1.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jakarta.xml.bind-api-2.3.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/java-util-1.9.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/javax.inject-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jersey-client-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jersey-guice-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/json-io-2.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/metrics-core-3.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/mssql-jdbc-6.2.1.jre7.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/objenesis-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/snakeyaml-1.26.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/swagger-annotations-1.5.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-api-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-registry-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-nodemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-router-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-sharedcachemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-tests-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-timeline-pluginstorage-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-web-proxy-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-services-api-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-services-core-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-submarine-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib:/opt/module/hadoop-3.2.3/share/hadoop/yarn/sources:/opt/module/hadoop-3.2.3/share/hadoop/yarn/test:/opt/module/hadoop-3.2.3/share/hadoop/yarn/timelineservice:/opt/module/hadoop-3.2.3/share/hadoop/yarn/webapps:/opt/module/hadoop-3.2.3/share/hadoop/yarn/yarn-service-examples:/opt/module/jindosdk-4.5.0/lib/jindo-core-4.5.0.jar:/opt/module/jindosdk-4.5.0/lib/jindo-sdk-4.5.0.jar:/opt/module/jindosdk-4.5.0/lib/native:/opt/module/hadoop-3.2.3/share/hadoop/tools/lib/hadoop-distcp-3.2.3.jar:/etc/hbase/conf:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-shaded-netty-2.2.0.jar:/usr/hdp/3.1.4.0-315/hbase/lib/commons-lang3-3.6.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-shaded-miscellaneous-2.2.0.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-common-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-hadoop-compat-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-hadoop2-compat-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-protocol-shaded-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-shaded-protobuf-2.2.0.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-metrics-api-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-protocol-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/jackson-databind-2.9.9.1.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-client-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-mapreduce-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/metrics-core-3.2.1.jar:/usr/hdp/3.1.4.0-315/hbase/lib/jackson-annotations-2.9.9.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-metrics-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/jackson-core-2.9.9.jar:/usr/hdp/3.1.4.0-315/hbase/lib/hbase-server-2.0.2.3.1.4.0-315.jar:/usr/hdp/3.1.4.0-315/hbase/lib/htrace-core4-4.2.0-incubating.jar:/opt/module/hive-3.1.3/lib/log4j-1.2-api-2.17.1.jar:/opt/module/hive-3.1.3/lib/log4j-api-2.17.1.jar:/opt/module/hive-3.1.3/lib/log4j-core-2.17.1.jar:/opt/module/hive-3.1.3/lib/log4j-web-2.17.1.jar:/opt/module/hadoop-3.2.3/etc/hadoop:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-client-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-configuration2-2.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-common-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-crypto-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-http-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-core-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/hadoop-annotations-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jcip-annotations-1.0-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/woodstox-core-5.3.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/htrace-core4-4.1.0-incubating.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-collections-3.2.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/netty-3.10.6.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/zookeeper-3.4.14.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-server-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/paranamer-2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/javax.servlet-api-3.1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/javax.activation-api-1.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/guava-27.0-jre.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/asm-5.0.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/j2objc-annotations-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-framework-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/accessors-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/re2j-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-config-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-databind-2.10.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-beanutils-1.9.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/failureaccess-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jul-to-slf4j-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-cli-1.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-json-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/hadoop-auth-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/dnsjava-2.1.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsp-api-2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jaxb-api-2.2.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-core-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/httpclient-4.5.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/nimbus-jose-jwt-9.8.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-client-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-text-1.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/slf4j-api-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jersey-servlet-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-xml-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-server-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/gson-2.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-identity-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/spotbugs-annotations-3.1.9.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/checker-qual-2.5.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-webapp-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/metrics-core-3.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/token-provider-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-security-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/snappy-java-1.0.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-net-3.6.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-server-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-pkix-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-compress-1.21.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/httpcore-4.4.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsr305-3.0.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/log4j-1.2.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-math3-3.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-util-ajax-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-admin-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/curator-recipes-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-codec-1.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-io-2.8.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-servlet-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/avro-1.7.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-asn1-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-lang3-3.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/json-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsr311-api-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerb-simplekdc-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jackson-core-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/kerby-xdr-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jsch-0.1.55.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jettison-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/commons-logging-1.1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/animal-sniffer-annotations-1.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/error_prone_annotations-2.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-io-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/audience-annotations-0.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/jetty-util-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/lib/stax2-api-4.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-kms-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-nfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-common-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/common/hadoop-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-client-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-configuration2-2.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-common-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-crypto-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-http-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-core-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/hadoop-annotations-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jcip-annotations-1.0-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/woodstox-core-5.3.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/htrace-core4-4.1.0-incubating.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-collections-3.2.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/netty-3.10.6.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/zookeeper-3.4.14.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-server-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/paranamer-2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/leveldbjni-all-1.8.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/javax.servlet-api-3.1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/json-simple-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/javax.activation-api-1.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/guava-27.0-jre.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/asm-5.0.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/j2objc-annotations-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-framework-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/accessors-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/re2j-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-config-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-databind-2.10.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-beanutils-1.9.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/failureaccess-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-json-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/hadoop-auth-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/dnsjava-2.1.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-xc-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jaxb-api-2.2.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-core-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/httpclient-4.5.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/nimbus-jose-jwt-9.8.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-client-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-text-1.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/netty-all-4.1.68.Final.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jaxb-impl-2.2.3-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jersey-servlet-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-xml-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-server-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/gson-2.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-identity-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/spotbugs-annotations-3.1.9.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/checker-qual-2.5.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-webapp-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/token-provider-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-security-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/snappy-java-1.0.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-net-3.6.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-server-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-pkix-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-compress-1.21.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/httpcore-4.4.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsr305-3.0.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-math3-3.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-util-ajax-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-admin-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/curator-recipes-2.13.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-codec-1.11.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-io-2.8.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-servlet-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/avro-1.7.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-asn1-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-lang3-3.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/json-smart-2.4.7.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-util-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsr311-api-1.1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerb-simplekdc-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-jaxrs-1.9.13.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/okio-1.6.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jackson-core-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/kerby-xdr-1.0.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jsch-0.1.55.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jettison-1.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/animal-sniffer-annotations-1.17.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/error_prone_annotations-2.2.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-io-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/audience-annotations-0.5.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/okhttp-2.7.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/jetty-util-9.4.40.v20210413.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/lib/stax2-api-4.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-client-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-nfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-rbf-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-native-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-httpfs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-native-client-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/hdfs/hadoop-hdfs-rbf-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib/junit-4.13.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-app-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-nativetask-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-3.2.3-tests.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-uploader-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jersey-guice-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/swagger-annotations-1.5.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/json-io-2.5.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/HikariCP-java7-2.4.12.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/ehcache-3.3.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/bcpkix-jdk15on-1.60.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-jaxrs-json-provider-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/javax.inject-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/aopalliance-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jakarta.xml.bind-api-2.3.2.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/metrics-core-3.2.4.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/objenesis-1.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/snakeyaml-1.26.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/bcprov-jdk15on-1.60.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-module-jaxb-annotations-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/geronimo-jcache_1.0_spec-1.0-alpha-1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jackson-jaxrs-base-2.10.5.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/fst-2.50.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/mssql-jdbc-6.2.1.jre7.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/guice-4.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/java-util-1.9.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jersey-client-1.19.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/guice-servlet-4.0.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/lib/jakarta.activation-api-1.2.1.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-services-api-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-client-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-submarine-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-common-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-registry-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-sharedcachemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-router-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-api-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-web-proxy-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-tests-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-nodemanager-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-services-core-3.2.3.jar:/opt/module/hadoop-3.2.3/share/hadoop/yarn/hadoop-yarn-server-timeline-pluginstorage-3.2.3.jar",
+    "ObjectName" : "java.lang:type=Runtime"
+  }, {
+    "name" : "java.lang:type=Threading",
+    "modelerType" : "sun.management.ThreadImpl",
+    "ThreadAllocatedMemorySupported" : true,
+    "ThreadAllocatedMemoryEnabled" : true,
+    "ThreadContentionMonitoringSupported" : true,
+    "CurrentThreadCpuTimeSupported" : true,
+    "ObjectMonitorUsageSupported" : true,
+    "SynchronizerUsageSupported" : true,
+    "ThreadCpuTimeEnabled" : true,
+    "PeakThreadCount" : 45,
+    "DaemonThreadCount" : 21,
+    "ThreadCount" : 31,
+    "TotalStartedThreadCount" : 521,
+    "ThreadCpuTimeSupported" : true,
+    "CurrentThreadCpuTime" : 12079443205,
+    "CurrentThreadUserTime" : 11410000000,
+    "ThreadContentionMonitoringEnabled" : false,
+    "AllThreadIds" : [ 609, 557, 475, 237, 172, 68, 45, 46, 42, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 15, 14, 12, 4, 3, 2 ],
+    "ObjectName" : "java.lang:type=Threading"
+  }, {
+    "name" : "java.lang:type=OperatingSystem",
+    "modelerType" : "sun.management.OperatingSystemImpl",
+    "OpenFileDescriptorCount" : 577,
+    "MaxFileDescriptorCount" : 204800,
+    "CommittedVirtualMemorySize" : 2475782144,
+    "TotalSwapSpaceSize" : 4294963200,
+    "FreeSwapSpaceSize" : 3322585088,
+    "ProcessCpuTime" : 7395210000000,
+    "FreePhysicalMemorySize" : 146898944,
+    "TotalPhysicalMemorySize" : 4122779648,
+    "SystemCpuLoad" : 0.0020300219763846987,
+    "ProcessCpuLoad" : 0.0034702822165108456,
+    "AvailableProcessors" : 2,
+    "Version" : "3.10.0-1160.49.1.el7.x86_64",
+    "Arch" : "amd64",
+    "SystemLoadAverage" : 0.02,
+    "Name" : "Linux",
+    "ObjectName" : "java.lang:type=OperatingSystem"
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=Code Cache",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Valid" : true,
+    "Usage" : {
+      "committed" : 28835840,
+      "init" : 2555904,
+      "max" : 251658240,
+      "used" : 28581632
+    },
+    "PeakUsage" : {
+      "committed" : 28835840,
+      "init" : 2555904,
+      "max" : 251658240,
+      "used" : 28589376
+    },
+    "MemoryManagerNames" : [ "CodeCacheManager" ],
+    "UsageThreshold" : 0,
+    "UsageThresholdExceeded" : false,
+    "UsageThresholdCount" : 0,
+    "UsageThresholdSupported" : true,
+    "CollectionUsage" : null,
+    "CollectionUsageThresholdSupported" : false,
+    "Name" : "Code Cache",
+    "Type" : "NON_HEAP",
+    "ObjectName" : "java.lang:type=MemoryPool,name=Code Cache"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerContextAdmin",
+    "ObjectName" : "org.apache.logging.log4j2:type=AsyncContext@6adca536",
+    "ConfigLocationUri" : "file:/opt/module/hive-3.1.3/conf/hive-log4j2.properties",
+    "ConfigText" : "# Licensed to the Apache Software Foundation (ASF) under one\n# or more contributor license agreements.  See the NOTICE file\n# distributed with this work for additional information\n# regarding copyright ownership.  The ASF licenses this file\n# to you under the Apache License, Version 2.0 (the\n# \"License\"); you may not use this file except in compliance\n# with the License.  You may obtain a copy of the License at\n#\n#     http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n\nstatus = INFO\nname = HiveLog4j2\npackages = org.apache.hadoop.hive.ql.log\n\n# list of properties\nproperty.hive.log.level = INFO\nproperty.hive.root.logger = DRFA\n#property.hive.log.dir = ${sys:java.io.tmpdir}/${sys:user.name}\nproperty.hive.log.dir = /opt/module/hive-3.1.3/logs\nproperty.hive.log.file = hive.log\nproperty.hive.perflogger.log.level = INFO\n\n# list of all appenders\nappenders = console, DRFA\n\n# console appender\nappender.console.type = Console\nappender.console.name = console\nappender.console.target = SYSTEM_ERR\nappender.console.layout.type = PatternLayout\nappender.console.layout.pattern = %d{ISO8601} %5p [%t] %c{2}: %m%n\n\n# daily rolling file appender\nappender.DRFA.type = RollingRandomAccessFile\nappender.DRFA.name = DRFA\nappender.DRFA.fileName = ${sys:hive.log.dir}/${sys:hive.log.file}\n# Use %pid in the filePattern to append <process-id>@<host-name> to the filename if you want separate log files for different CLI session\nappender.DRFA.filePattern = ${sys:hive.log.dir}/${sys:hive.log.file}.%d{yyyy-MM-dd}\nappender.DRFA.layout.type = PatternLayout\nappender.DRFA.layout.pattern = %d{ISO8601} %5p [%t] %c{2}: %m%n\nappender.DRFA.policies.type = Policies\nappender.DRFA.policies.time.type = TimeBasedTriggeringPolicy\nappender.DRFA.policies.time.interval = 1\nappender.DRFA.policies.time.modulate = true\nappender.DRFA.strategy.type = DefaultRolloverStrategy\nappender.DRFA.strategy.max = 30\n\n# list of all loggers\nloggers = NIOServerCnxn, ClientCnxnSocketNIO, DataNucleus, Datastore, JPOX, PerfLogger, AmazonAws, ApacheHttp\n\nlogger.NIOServerCnxn.name = org.apache.zookeeper.server.NIOServerCnxn\nlogger.NIOServerCnxn.level = WARN\n\nlogger.ClientCnxnSocketNIO.name = org.apache.zookeeper.ClientCnxnSocketNIO\nlogger.ClientCnxnSocketNIO.level = WARN\n\nlogger.DataNucleus.name = DataNucleus\nlogger.DataNucleus.level = ERROR\n\nlogger.Datastore.name = Datastore\nlogger.Datastore.level = ERROR\n\nlogger.JPOX.name = JPOX\nlogger.JPOX.level = ERROR\n\nlogger.AmazonAws.name=com.amazonaws\nlogger.AmazonAws.level = INFO\n\nlogger.ApacheHttp.name=org.apache.http\nlogger.ApacheHttp.level = INFO\n\nlogger.PerfLogger.name = org.apache.hadoop.hive.ql.log.PerfLogger\nlogger.PerfLogger.level = ${sys:hive.perflogger.log.level}\n\n# root logger\nrootLogger.level = ${sys:hive.log.level}\nrootLogger.appenderRefs = root\nrootLogger.appenderRef.root.ref = ${sys:hive.root.logger}\n",
+    "ConfigName" : "HiveLog4j2",
+    "ConfigClassName" : "org.apache.logging.log4j.core.config.properties.PropertiesConfiguration",
+    "ConfigFilter" : "null",
+    "ConfigProperties" : "{hostName=hadoop102, contextName=AsyncContext@6adca536}",
+    "Status" : "STARTED",
+    "Name" : "AsyncContext@6adca536"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=ContextSelector",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.ContextSelectorAdmin",
+    "ImplementationClassName" : "org.apache.logging.log4j.core.async.AsyncLoggerContextSelector"
+  }, {
+    "name" : "java.nio:type=BufferPool,name=direct",
+    "modelerType" : "sun.management.ManagementFactoryHelper$1",
+    "TotalCapacity" : 175948,
+    "MemoryUsed" : 175949,
+    "Count" : 33,
+    "Name" : "direct",
+    "ObjectName" : "java.nio:type=BufferPool,name=direct"
+  }, {
+    "name" : "java.lang:type=Compilation",
+    "modelerType" : "sun.management.CompilationImpl",
+    "CompilationTimeMonitoringSupported" : true,
+    "TotalCompilationTime" : 277726,
+    "Name" : "HotSpot 64-Bit Tiered Compilers",
+    "ObjectName" : "java.lang:type=Compilation"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Loggers,name=org.apache.http",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+    "Level" : "INFO",
+    "Filter" : "null",
+    "Additive" : true,
+    "AppenderRefs" : [ ],
+    "IncludeLocation" : false,
+    "Name" : "org.apache.http"
+  }, {
+    "name" : "java.lang:type=MemoryManager,name=CodeCacheManager",
+    "modelerType" : "sun.management.MemoryManagerImpl",
+    "Valid" : true,
+    "MemoryPoolNames" : [ "Code Cache" ],
+    "Name" : "CodeCacheManager",
+    "ObjectName" : "java.lang:type=MemoryManager,name=CodeCacheManager"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Loggers,name=org.apache.zookeeper.server.NIOServerCnxn",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+    "Level" : "WARN",
+    "Filter" : "null",
+    "Additive" : true,
+    "AppenderRefs" : [ ],
+    "IncludeLocation" : false,
+    "Name" : "org.apache.zookeeper.server.NIOServerCnxn"
+  }, {
+    "name" : "java.util.logging:type=Logging",
+    "modelerType" : "sun.management.ManagementFactoryHelper$PlatformLoggingImpl",
+    "ObjectName" : "java.util.logging:type=Logging",
+    "LoggerNames" : [ "com.microsoft.sqlserver.jdbc.Driver", "javax.management.snmp.daemon", "org.apache.calcite.avatica.com.google.protobuf.UnsafeUtil", "com.google.common.util.concurrent.ImmediateFuture", "com.microsoft.sqlserver.jdbc.internals.SQLServerConnection", "org.apache.calcite.avatica.com.google.protobuf.Descriptors", "com.google.common.util.concurrent.AbstractFuture", "javax.management.notification", "org.apache.jasper.compiler.JspConfig", "org.apache.jasper.compiler.JspRuntimeContext", "com.google.common.cache.CacheBuilder", "org.apache.jasper.servlet.JspServlet", "javax.management.misc", "javax.management", "com.microsoft.sqlserver.jdbc.internals.SQLServerDriver", "com.google.common.base.Platform", "javax.management.relation", "com.microsoft.sqlserver.jdbc", "org.apache.jasper.security.SecurityClassLoad", "org.apache.jasper.runtime.JspFactoryImpl", "org.apache.jasper.runtime.TldScanner", "global", "org.apache.jasper.EmbeddedServletOptions", "javax.management.snmp", "com.lmax.disruptor.FatalExceptionHandler", "javax.management.mbeanserver", "javax.management.modelmbean", "javax.management.mlet", "javax.management.timer", "com.microsoft.sqlserver.jdbc.Connection", "com.google.common.cache.LocalCache", "", "javax.management.monitor" ]
+  }, {
+    "name" : "java.lang:type=ClassLoading",
+    "modelerType" : "sun.management.ClassLoadingImpl",
+    "LoadedClassCount" : 15567,
+    "UnloadedClassCount" : 2,
+    "TotalLoadedClassCount" : 15569,
+    "Verbose" : false,
+    "ObjectName" : "java.lang:type=ClassLoading"
+  }, {
+    "name" : "java.lang:type=MemoryManager,name=Metaspace Manager",
+    "modelerType" : "sun.management.MemoryManagerImpl",
+    "Valid" : true,
+    "MemoryPoolNames" : [ "Metaspace", "Compressed Class Space" ],
+    "Name" : "Metaspace Manager",
+    "ObjectName" : "java.lang:type=MemoryManager,name=Metaspace Manager"
+  }, {
+    "name" : "java.lang:type=GarbageCollector,name=PS MarkSweep",
+    "modelerType" : "sun.management.GarbageCollectorImpl",
+    "LastGcInfo" : {
+      "GcThreadCount" : 2,
+      "duration" : 138,
+      "endTime" : 42092,
+      "id" : 4,
+      "memoryUsageAfterGc" : [ {
+        "key" : "Compressed Class Space",
+        "value" : {
+          "committed" : 10223616,
+          "init" : 0,
+          "max" : 1073741824,
+          "used" : 10047560
+        }
+      }, {
+        "key" : "PS Survivor Space",
+        "value" : {
+          "committed" : 17301504,
+          "init" : 2621440,
+          "max" : 17301504,
+          "used" : 0
+        }
+      }, {
+        "key" : "PS Old Gen",
+        "value" : {
+          "committed" : 132644864,
+          "init" : 43515904,
+          "max" : 179306496,
+          "used" : 71502200
+        }
+      }, {
+        "key" : "Metaspace",
+        "value" : {
+          "committed" : 89206784,
+          "init" : 0,
+          "max" : -1,
+          "used" : 88035464
+        }
+      }, {
+        "key" : "PS Eden Space",
+        "value" : {
+          "committed" : 50331648,
+          "init" : 16252928,
+          "max" : 53477376,
+          "used" : 0
+        }
+      }, {
+        "key" : "Code Cache",
+        "value" : {
+          "committed" : 11534336,
+          "init" : 2555904,
+          "max" : 251658240,
+          "used" : 11449472
+        }
+      } ],
+      "memoryUsageBeforeGc" : [ {
+        "key" : "Compressed Class Space",
+        "value" : {
+          "committed" : 10223616,
+          "init" : 0,
+          "max" : 1073741824,
+          "used" : 10048744
+        }
+      }, {
+        "key" : "PS Survivor Space",
+        "value" : {
+          "committed" : 17301504,
+          "init" : 2621440,
+          "max" : 17301504,
+          "used" : 10162800
+        }
+      }, {
+        "key" : "PS Old Gen",
+        "value" : {
+          "committed" : 113770496,
+          "init" : 43515904,
+          "max" : 179306496,
+          "used" : 64377744
+        }
+      }, {
+        "key" : "Metaspace",
+        "value" : {
+          "committed" : 89206784,
+          "init" : 0,
+          "max" : -1,
+          "used" : 88042184
+        }
+      }, {
+        "key" : "PS Eden Space",
+        "value" : {
+          "committed" : 50331648,
+          "init" : 16252928,
+          "max" : 53477376,
+          "used" : 0
+        }
+      }, {
+        "key" : "Code Cache",
+        "value" : {
+          "committed" : 11534336,
+          "init" : 2555904,
+          "max" : 251658240,
+          "used" : 11449472
+        }
+      } ],
+      "startTime" : 41954
+    },
+    "CollectionCount" : 4,
+    "CollectionTime" : 708,
+    "Valid" : true,
+    "MemoryPoolNames" : [ "PS Eden Space", "PS Survivor Space", "PS Old Gen" ],
+    "Name" : "PS MarkSweep",
+    "ObjectName" : "java.lang:type=GarbageCollector,name=PS MarkSweep"
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=Metaspace",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Valid" : true,
+    "Usage" : {
+      "committed" : 103677952,
+      "init" : 0,
+      "max" : -1,
+      "used" : 102126504
+    },
+    "PeakUsage" : {
+      "committed" : 103677952,
+      "init" : 0,
+      "max" : -1,
+      "used" : 102126504
+    },
+    "MemoryManagerNames" : [ "Metaspace Manager" ],
+    "UsageThreshold" : 0,
+    "UsageThresholdExceeded" : false,
+    "UsageThresholdCount" : 0,
+    "UsageThresholdSupported" : true,
+    "CollectionUsage" : null,
+    "CollectionUsageThresholdSupported" : false,
+    "Name" : "Metaspace",
+    "Type" : "NON_HEAP",
+    "ObjectName" : "java.lang:type=MemoryPool,name=Metaspace"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=AsyncLoggerRingBuffer",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.RingBufferAdmin",
+    "RemainingCapacity" : 262144,
+    "BufferSize" : 262144
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=PS Old Gen",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Valid" : true,
+    "Usage" : {
+      "committed" : 132644864,
+      "init" : 43515904,
+      "max" : 179306496,
+      "used" : 107629384
+    },
+    "PeakUsage" : {
+      "committed" : 132644864,
+      "init" : 43515904,
+      "max" : 179306496,
+      "used" : 107629384
+    },
+    "MemoryManagerNames" : [ "PS MarkSweep" ],
+    "UsageThreshold" : 0,
+    "UsageThresholdExceeded" : false,
+    "UsageThresholdCount" : 0,
+    "UsageThresholdSupported" : true,
+    "CollectionUsageThreshold" : 0,
+    "CollectionUsageThresholdExceeded" : false,
+    "CollectionUsageThresholdCount" : 0,
+    "CollectionUsage" : {
+      "committed" : 132644864,
+      "init" : 43515904,
+      "max" : 179306496,
+      "used" : 71502200
+    },
+    "CollectionUsageThresholdSupported" : true,
+    "Name" : "PS Old Gen",
+    "Type" : "HEAP",
+    "ObjectName" : "java.lang:type=MemoryPool,name=PS Old Gen"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Loggers,name=org.apache.zookeeper.ClientCnxnSocketNIO",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+    "Level" : "WARN",
+    "Filter" : "null",
+    "Additive" : true,
+    "AppenderRefs" : [ ],
+    "IncludeLocation" : false,
+    "Name" : "org.apache.zookeeper.ClientCnxnSocketNIO"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Loggers,name=org.apache.hadoop.hive.ql.log.PerfLogger",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+    "Level" : "INFO",
+    "Filter" : "null",
+    "Additive" : true,
+    "AppenderRefs" : [ ],
+    "IncludeLocation" : false,
+    "Name" : "org.apache.hadoop.hive.ql.log.PerfLogger"
+  }, {
+    "name" : "java.lang:type=GarbageCollector,name=PS Scavenge",
+    "modelerType" : "sun.management.GarbageCollectorImpl",
+    "LastGcInfo" : {
+      "GcThreadCount" : 2,
+      "duration" : 4,
+      "endTime" : 1125786291,
+      "id" : 294,
+      "memoryUsageAfterGc" : [ {
+        "key" : "Compressed Class Space",
+        "value" : {
+          "committed" : 11665408,
+          "init" : 0,
+          "max" : 1073741824,
+          "used" : 11303096
+        }
+      }, {
+        "key" : "PS Survivor Space",
+        "value" : {
+          "committed" : 1048576,
+          "init" : 2621440,
+          "max" : 1048576,
+          "used" : 557072
+        }
+      }, {
+        "key" : "PS Old Gen",
+        "value" : {
+          "committed" : 132644864,
+          "init" : 43515904,
+          "max" : 179306496,
+          "used" : 107629384
+        }
+      }, {
+        "key" : "Metaspace",
+        "value" : {
+          "committed" : 103677952,
+          "init" : 0,
+          "max" : -1,
+          "used" : 102086696
+        }
+      }, {
+        "key" : "PS Eden Space",
+        "value" : {
+          "committed" : 29884416,
+          "init" : 16252928,
+          "max" : 87031808,
+          "used" : 0
+        }
+      }, {
+        "key" : "Code Cache",
+        "value" : {
+          "committed" : 28704768,
+          "init" : 2555904,
+          "max" : 251658240,
+          "used" : 28391872
+        }
+      } ],
+      "memoryUsageBeforeGc" : [ {
+        "key" : "Compressed Class Space",
+        "value" : {
+          "committed" : 11665408,
+          "init" : 0,
+          "max" : 1073741824,
+          "used" : 11303096
+        }
+      }, {
+        "key" : "PS Survivor Space",
+        "value" : {
+          "committed" : 1048576,
+          "init" : 2621440,
+          "max" : 1048576,
+          "used" : 524304
+        }
+      }, {
+        "key" : "PS Old Gen",
+        "value" : {
+          "committed" : 132644864,
+          "init" : 43515904,
+          "max" : 179306496,
+          "used" : 107629384
+        }
+      }, {
+        "key" : "Metaspace",
+        "value" : {
+          "committed" : 103677952,
+          "init" : 0,
+          "max" : -1,
+          "used" : 102086696
+        }
+      }, {
+        "key" : "PS Eden Space",
+        "value" : {
+          "committed" : 29884416,
+          "init" : 16252928,
+          "max" : 87031808,
+          "used" : 29884416
+        }
+      }, {
+        "key" : "Code Cache",
+        "value" : {
+          "committed" : 28704768,
+          "init" : 2555904,
+          "max" : 251658240,
+          "used" : 28391872
+        }
+      } ],
+      "startTime" : 1125786287
+    },
+    "CollectionCount" : 294,
+    "CollectionTime" : 8437,
+    "Valid" : true,
+    "MemoryPoolNames" : [ "PS Eden Space", "PS Survivor Space" ],
+    "Name" : "PS Scavenge",
+    "ObjectName" : "java.lang:type=GarbageCollector,name=PS Scavenge"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Appenders,name=DRFA",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.AppenderAdmin",
+    "ErrorHandler" : "org.apache.logging.log4j.core.appender.DefaultErrorHandler@7b4d9ce4",
+    "Layout" : "%d{ISO8601} %5p [%t] %c{2}: %m%n",
+    "Filter" : "null",
+    "IgnoreExceptions" : true,
+    "Name" : "DRFA"
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=PS Eden Space",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Valid" : true,
+    "Usage" : {
+      "committed" : 29884416,
+      "init" : 16252928,
+      "max" : 87031808,
+      "used" : 8740112
+    },
+    "PeakUsage" : {
+      "committed" : 73924608,
+      "init" : 16252928,
+      "max" : 88080384,
+      "used" : 73924608
+    },
+    "MemoryManagerNames" : [ "PS MarkSweep", "PS Scavenge" ],
+    "UsageThresholdSupported" : false,
+    "CollectionUsageThreshold" : 0,
+    "CollectionUsageThresholdExceeded" : false,
+    "CollectionUsageThresholdCount" : 0,
+    "CollectionUsage" : {
+      "committed" : 29884416,
+      "init" : 16252928,
+      "max" : 87031808,
+      "used" : 0
+    },
+    "CollectionUsageThresholdSupported" : true,
+    "Name" : "PS Eden Space",
+    "Type" : "HEAP",
+    "ObjectName" : "java.lang:type=MemoryPool,name=PS Eden Space"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Loggers,name=Datastore",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+    "Level" : "ERROR",
+    "Filter" : "null",
+    "Additive" : true,
+    "AppenderRefs" : [ ],
+    "IncludeLocation" : false,
+    "Name" : "Datastore"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=Loggers,name=DataNucleus",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.LoggerConfigAdmin",
+    "Level" : "ERROR",
+    "Filter" : "null",
+    "Additive" : true,
+    "AppenderRefs" : [ ],
+    "IncludeLocation" : false,
+    "Name" : "DataNucleus"
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=Compressed Class Space",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Valid" : true,
+    "Usage" : {
+      "committed" : 11665408,
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 11303096
+    },
+    "PeakUsage" : {
+      "committed" : 11665408,
+      "init" : 0,
+      "max" : 1073741824,
+      "used" : 11303096
+    },
+    "MemoryManagerNames" : [ "Metaspace Manager" ],
+    "UsageThreshold" : 0,
+    "UsageThresholdExceeded" : false,
+    "UsageThresholdCount" : 0,
+    "UsageThresholdSupported" : true,
+    "CollectionUsage" : null,
+    "CollectionUsageThresholdSupported" : false,
+    "Name" : "Compressed Class Space",
+    "Type" : "NON_HEAP",
+    "ObjectName" : "java.lang:type=MemoryPool,name=Compressed Class Space"
+  }, {
+    "name" : "java.lang:type=Memory",
+    "modelerType" : "sun.management.MemoryImpl",
+    "ObjectPendingFinalizationCount" : 0,
+    "HeapMemoryUsage" : {
+      "committed" : 163577856,
+      "init" : 65011712,
+      "max" : 239075328,
+      "used" : 116987736
+    },
+    "NonHeapMemoryUsage" : {
+      "committed" : 144179200,
+      "init" : 2555904,
+      "max" : -1,
+      "used" : 142017016
+    },
+    "Verbose" : false,
+    "ObjectName" : "java.lang:type=Memory"
+  }, {
+    "name" : "java.nio:type=BufferPool,name=mapped",
+    "modelerType" : "sun.management.ManagementFactoryHelper$1",
+    "TotalCapacity" : 0,
+    "MemoryUsed" : 0,
+    "Count" : 0,
+    "Name" : "mapped",
+    "ObjectName" : "java.nio:type=BufferPool,name=mapped"
+  }, {
+    "name" : "java.lang:type=MemoryPool,name=PS Survivor Space",
+    "modelerType" : "sun.management.MemoryPoolImpl",
+    "Valid" : true,
+    "Usage" : {
+      "committed" : 1048576,
+      "init" : 2621440,
+      "max" : 1048576,
+      "used" : 557072
+    },
+    "PeakUsage" : {
+      "committed" : 24117248,
+      "init" : 2621440,
+      "max" : 24117248,
+      "used" : 16226920
+    },
+    "MemoryManagerNames" : [ "PS MarkSweep", "PS Scavenge" ],
+    "UsageThresholdSupported" : false,
+    "CollectionUsageThreshold" : 0,
+    "CollectionUsageThresholdExceeded" : false,
+    "CollectionUsageThresholdCount" : 0,
+    "CollectionUsage" : {
+      "committed" : 1048576,
+      "init" : 2621440,
+      "max" : 1048576,
+      "used" : 557072
+    },
+    "CollectionUsageThresholdSupported" : true,
+    "Name" : "PS Survivor Space",
+    "Type" : "HEAP",
+    "ObjectName" : "java.lang:type=MemoryPool,name=PS Survivor Space"
+  }, {
+    "name" : "com.sun.management:type=DiagnosticCommand",
+    "modelerType" : "sun.management.DiagnosticCommandImpl"
+  }, {
+    "name" : "com.sun.management:type=HotSpotDiagnostic",
+    "modelerType" : "sun.management.HotSpotDiagnostic",
+    "DiagnosticOptions" : [ {
+      "name" : "HeapDumpBeforeFullGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "HeapDumpAfterFullGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "HeapDumpOnOutOfMemoryError",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "HeapDumpPath",
+      "origin" : "DEFAULT",
+      "value" : "",
+      "writeable" : true
+    }, {
+      "name" : "CMSAbortablePrecleanWaitMillis",
+      "origin" : "DEFAULT",
+      "value" : "100",
+      "writeable" : true
+    }, {
+      "name" : "CMSWaitDuration",
+      "origin" : "DEFAULT",
+      "value" : "2000",
+      "writeable" : true
+    }, {
+      "name" : "CMSTriggerInterval",
+      "origin" : "DEFAULT",
+      "value" : "-1",
+      "writeable" : true
+    }, {
+      "name" : "PrintGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintGCDetails",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintGCDateStamps",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintGCTimeStamps",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintGCID",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintClassHistogramBeforeFullGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintClassHistogramAfterFullGC",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "PrintClassHistogram",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "MinHeapFreeRatio",
+      "origin" : "DEFAULT",
+      "value" : "0",
+      "writeable" : true
+    }, {
+      "name" : "MaxHeapFreeRatio",
+      "origin" : "DEFAULT",
+      "value" : "100",
+      "writeable" : true
+    }, {
+      "name" : "PrintConcurrentLocks",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    }, {
+      "name" : "UnlockCommercialFeatures",
+      "origin" : "DEFAULT",
+      "value" : "false",
+      "writeable" : true
+    } ],
+    "ObjectName" : "com.sun.management:type=HotSpotDiagnostic"
+  }, {
+    "name" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=StatusLogger",
+    "modelerType" : "org.apache.logging.log4j.core.jmx.StatusLoggerAdmin",
+    "ObjectName" : "org.apache.logging.log4j2:type=AsyncContext@6adca536,component=StatusLogger",
+    "StatusDataHistory" : [ "2022-12-29 16:36:30,677 hiveserver2-web-28 INFO Scanning for classes in '/opt/module/hive-3.1.3/lib/hive-common-3.1.3.jar' matching criteria annotated with @Plugin", "2022-12-29 16:36:30,679 hiveserver2-web-28 INFO Scanning for classes in '/opt/module/hive-3.1.3/lib/hive-exec-3.1.3.jar' matching criteria annotated with @Plugin" ],
+    "Level" : "WARN",
+    "StatusData" : "[org.apache.logging.log4j.status.StatusData@6a7fc5b8, org.apache.logging.log4j.status.StatusData@6d73602b]",
+    "ContextName" : "AsyncContext@6adca536"
+  } ]
+}
